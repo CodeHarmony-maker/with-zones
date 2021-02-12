@@ -2,18 +2,18 @@
 //   basePath: '/blog',
 // }
 module.exports = {
-  basePath: "/home",
+  basePath: "/first",
   rewrites: async () => {
     return [
       {
         source: "/about",
-        destination: `http://localhost:3001/about`,
-        basePath: true,
+        destination: `http://localhost:3001/home`,
+        basePath: false,
       },
       {
         source: "/about",
-        destination: `http://localhost:3001/about/:path*`,
-        basePath: true,
+        destination: `http://localhost:3001/home/:path*`,
+        basePath: false,
       },
     ];
   },

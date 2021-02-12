@@ -15,7 +15,7 @@
 //   },
 // }
 module.exports = {
-  basePath: "/home",
+  basePath: "/first",
   rewrites: async () => {
     return [
       {
