@@ -5,11 +5,11 @@ module.exports = {
     return [
       {
         source: '/dashboard',
-        destination: `${BLOG_URL}/dashboard`,
+        destination: `/dashboard`,
       },
       {
         source: '/dashboard/:path*',
-        destination: `${BLOG_URL}/dashboard/:path*`,
+        destination: `/dashboard/:path*`,
       },
     ]
   },
