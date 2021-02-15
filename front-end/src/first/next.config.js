@@ -1,19 +1,19 @@
-const { BLOG_URL } = process.env
+const { BLOG_URL } = process.env;
 
 module.exports = {
   rewrites() {
     return [
       {
-        source: '/dashboard',
-        destination: `https://with-zones-lake.vercel.app/dashboard`,
+        source: "/dashboard",
+        destination: `http://with-zones-tau.vercel.app/dashboard`,
       },
       {
-        source: '/dashboard/:path*',
-        destination: `https://with-zones-lake.vercel.app/dashboard/:path*`,
+        source: "/dashboard/:path*",
+        destination: `http://with-zones-tau.vercel.app/dashboard/:path*`,
       },
-    ]
+    ];
   },
-}
+};
 // module.exports = {
 //   basePath: "/first",
 //   rewrites: async () => {
