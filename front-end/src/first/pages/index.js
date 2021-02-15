@@ -1,5 +1,6 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -8,7 +9,10 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <h1>First</h1>
+        <Link href="/dashboard">
+          <a href="/dashboard">dashboard link</a>
+        </Link>
       </Head>
     </div>
-  )
+  );
 }

@@ -1,33 +1,33 @@
-// const { BLOG_URL } = process.env
+const { BLOG_URL } = process.env
 
-// module.exports = {
-//   rewrites() {
-//     return [
-//       {
-//         source: '/blog',
-//         destination: `/blog`,
-//       },
-//       {
-//         source: '/blog/:path*',
-//         destination: `/blog/:path*`,
-//       },
-//     ]
-//   },
-// }
 module.exports = {
-  basePath: "/first",
-  rewrites: async () => {
+  rewrites() {
     return [
       {
-        source: "/home",
-        destination: `http://localhost:3000/home`,
-        basePath: false,
+        source: '/dashboard',
+        destination: `${BLOG_URL}/dashboard`,
       },
       {
-        source: "/home/:path*",
-        destination: `http://localhost:3000/home/:path*`,
-        basePath: false,
+        source: '/dashboard/:path*',
+        destination: `${BLOG_URL}/dashboard/:path*`,
       },
-    ];
+    ]
   },
-};
+}
+// module.exports = {
+//   basePath: "/first",
+//   rewrites: async () => {
+//     return [
+//       {
+//         source: "/home",
+//         destination: `http://localhost:3000/home`,
+//         basePath: false,
+//       },
+//       {
+//         source: "/home/:path*",
+//         destination: `http://localhost:3000/home/:path*`,
+//         basePath: false,
+//       },
+//     ];
+//   },
+// };
