@@ -5,11 +5,11 @@ module.exports = {
     return [
       {
         source: '/dashboard',
-        destination: `/dashboard`,
+        destination: `https://with-zones-lake.vercel.app/dashboard`,
       },
       {
         source: '/dashboard/:path*',
-        destination: `/dashboard/:path*`,
+        destination: `https://with-zones-lake.vercel.app/dashboard/:path*`,
       },
     ]
   },
