@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>DASHBOARD</h1>
-      <ul>
+      {/* <ul>
         <li>
           <Link href="/dashboard/1">
             <a>Post 1</a>
@@ -20,7 +20,7 @@ export default function Home() {
             <a>Post 2</a>
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   )
 }
