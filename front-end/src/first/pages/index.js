@@ -9,6 +9,9 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
         <h1>First</h1>
+        <Link href="/home">
+          <a href="/home">home</a>
+        </Link>
         <Link href="/dashboard">
           <a href="/dashboard">dashboard link</a>
         </Link>
