@@ -14,11 +14,11 @@ module.exports = {
       },
       {
         source: "/dashboard",
-        destination: `https://second-qgfrm0pe8.vercel.app/dashboard`,
+        destination: `https://dashboardone.vercel.app/dashboard`,
       },
       {
         source: "/dashboard/:path*",
-        destination: `https://second-qgfrm0pe8.vercel.app/dashboard/:path*`,
+        destination: `https://dashboardone.vercel.app/dashboard/:path*`,
       },
     ];
   },
