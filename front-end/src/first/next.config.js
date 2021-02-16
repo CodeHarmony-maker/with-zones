@@ -12,6 +12,14 @@ module.exports = {
         source: "/second/:path*",
         destination: `https://second-qgfrm0pe8.vercel.app/second/:path*`,
       },
+      {
+        source: "/dashboard",
+        destination: `https://second-qgfrm0pe8.vercel.app/dashboard`,
+      },
+      {
+        source: "/dashboard/:path*",
+        destination: `https://second-qgfrm0pe8.vercel.app/dashboard/:path*`,
+      },
     ];
   },
 };

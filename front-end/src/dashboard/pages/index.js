@@ -9,18 +9,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>DASHBOARD</h1>
-      {/* <ul>
+      <ul>
         <li>
-          <Link href="/dashboard/1">
-            <a>Post 1</a>
+          <Link href="/second">
+            <a>second</a>
           </Link>
         </li>
         <li>
-          <Link href="/dashboard/2">
-            <a>Post 2</a>
+          <Link href="/">
+            <a>Go Home</a>
           </Link>
         </li>
-      </ul> */}
+      </ul>
     </div>
   )
 }
