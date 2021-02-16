@@ -15,6 +15,9 @@ export default function Home() {
         <Link href="/second">
           <a href="/second">second link</a>
         </Link>
+        <Link href="/dashboard">
+          <a href="/dashboard">Dashboard Link</a>
+        </Link>
       </Head>
     </div>
   );
