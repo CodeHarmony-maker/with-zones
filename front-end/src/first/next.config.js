@@ -6,11 +6,11 @@ module.exports = {
     return [
       {
         source: "/second",
-        destination: `${BLOG_URL}/second`,
+        destination: `https://second-qgfrm0pe8.vercel.app/second`,
       },
       {
         source: "/second/:path*",
-        destination: `${BLOG_URL}/second/:path*`,
+        destination: `https://second-qgfrm0pe8.vercel.app/second/:path*`,
       },
     ];
   },
