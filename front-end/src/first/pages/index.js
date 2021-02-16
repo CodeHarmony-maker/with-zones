@@ -12,8 +12,8 @@ export default function Home() {
         <Link href="/home">
           <a href="/home">home</a>
         </Link>
-        <Link href="/dashboard">
-          <a href="/dashboard">dashboard link</a>
+        <Link href="/second">
+          <a href="/second">second link</a>
         </Link>
       </Head>
     </div>

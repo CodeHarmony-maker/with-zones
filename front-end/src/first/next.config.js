@@ -1,15 +1,16 @@
 const { BLOG_URL } = process.env;
 
 module.exports = {
+  // basePath: "/first",
   rewrites() {
     return [
       {
-        source: "/dashboard",
-        destination: `http://with-zones-tau.vercel.app/dashboard`,
+        source: "/second",
+        destination: `${BLOG_URL}/second`,
       },
       {
-        source: "/dashboard/:path*",
-        destination: `http://with-zones-tau.vercel.app/dashboard/:path*`,
+        source: "/second/:path*",
+        destination: `${BLOG_URL}/second/:path*`,
       },
     ];
   },
