@@ -6,19 +6,19 @@ module.exports = {
     return [
       {
         source: "/second",
-        destination: `https://second-qgfrm0pe8.vercel.app/second`,
+        destination: `https://second-olive.vercel.app/second`,
       },
       {
         source: "/second/:path*",
-        destination: `https://second-qgfrm0pe8.vercel.app/second/:path*`,
+        destination: `https://second-olive.vercel.app/second/:path*`,
       },
       {
         source: "/dashboard",
-        destination: `https://dashboardone.vercel.app/dashboard`,
+        destination: `https://dashboard-drab-five.vercel.app/dashboard`,
       },
       {
         source: "/dashboard/:path*",
-        destination: `https://dashboardone.vercel.app/dashboard/:path*`,
+        destination: `https://dashboard-drab-five.vercel.app/dashboard/:path*`,
       },
     ];
   },
